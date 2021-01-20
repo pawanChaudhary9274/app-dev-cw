@@ -1,0 +1,22 @@
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\Application Development Coursework.exe.config
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\Application Development Coursework.exe
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\Application Development Coursework.pdb
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.AdminLogin.resources
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.Properties.Resources.resources
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csproj.GenerateResource.cache
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csproj.CoreCompileInputs.cache
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.exe
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.pdb
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.App.resources
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.DashboardControl.resources
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.RecordsControl.resources
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csprojAssemblyReference.cache
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.CustomerFeedback.resources
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\Newtonsoft.Json.dll
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\Newtonsoft.Json.xml
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csproj.CopyComplete
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\CircularProgressBar.dll
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\WinFormAnimation.dll
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\CircularProgressBar.xml
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\bin\Debug\WinFormAnimation.xml
+E:\C# Coursework\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.SplashScreen.resources
