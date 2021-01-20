@@ -15,6 +15,7 @@ namespace Application_Development_Coursework
         public App()
         {
             InitializeComponent();
+            addCriteriaList();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -55,9 +56,43 @@ namespace Application_Development_Coursework
             }
         }
 
-        private void btnNewFeedback_Click(object sender, EventArgs e)
+        private void btnAddCriteria_Click(object sender, EventArgs e)
         {
-            new CustomerFeedback().Show();
+            addCriteria1.BringToFront();
+            //criteriaAdd1.BringToFront();
+
+        }
+        public void addCriteriaList()
+        {
+            //int locationX = 34;
+            int locationY = 10;
+            string line;
+            System.IO.StreamReader file =
+                new System.IO.StreamReader(@"Criteria.txt");
+            while ((line = file.ReadLine()) != null)
+            {
+                // Remove the extra ','
+                string criteriaList = line.Substring(0, line.Length - 1);
+               
+                //ComboBox comboBox = new ComboBox();
+                //comboBox.Name = comboName;
+               // comboBox.Items.AddRange(new object[] { 1, 2, 3, 4 });
+                //comboBox.Location = new Point(locationX, locationY);
+                //this.Controls.Add(comboBox);
+                //this.pnlCriteriaList.Controls.Add();
+           
+
+                Label label = new Label();
+                label.Text = criteriaList;
+                label.Location = new Point(0, locationY);
+                //this.panCControls.Add(label);
+                this.panCriteria.Controls.Add(label);
+
+
+                locationY += 20;
+            }
+
+            file.Close();
         }
     }
 }

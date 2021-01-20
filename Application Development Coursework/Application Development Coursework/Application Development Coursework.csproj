@@ -56,6 +56,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddCriteria.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AddCriteria.Designer.cs">
+      <DependentUpon>AddCriteria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CriteriaAdd.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CriteriaAdd.Designer.cs">
+      <DependentUpon>CriteriaAdd.cs</DependentUpon>
+    </Compile>
     <Compile Include="CustomerFeedback.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,7 +100,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Review.cs" />
+    <Compile Include="CriteriaModel.cs" />
     <Compile Include="SplashScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +108,12 @@
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Utility.cs" />
+    <EmbeddedResource Include="AddCriteria.resx">
+      <DependentUpon>AddCriteria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CriteriaAdd.resx">
+      <DependentUpon>CriteriaAdd.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CustomerFeedback.resx">
       <DependentUpon>CustomerFeedback.cs</DependentUpon>
     </EmbeddedResource>

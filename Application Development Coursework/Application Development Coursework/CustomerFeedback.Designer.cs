@@ -29,17 +29,21 @@
         private void InitializeComponent()
         {
             this.pnlHeader = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.lblFollow = new System.Windows.Forms.Label();
+            this.picBoxInsta = new System.Windows.Forms.PictureBox();
+            this.picBoxFace = new System.Windows.Forms.PictureBox();
             this.lblrestaurantName = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lblSlogan = new System.Windows.Forms.Label();
             this.pnlFooter = new System.Windows.Forms.Panel();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.lblEmail = new System.Windows.Forms.Label();
             this.lblPhone = new System.Windows.Forms.Label();
             this.lblLocatioin = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.comboBox6 = new System.Windows.Forms.ComboBox();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
@@ -60,19 +64,15 @@
             this.lblCustomerName = new System.Windows.Forms.Label();
             this.btnClearInput = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.lblFollow = new System.Windows.Forms.Label();
-            this.picBoxInsta = new System.Windows.Forms.PictureBox();
-            this.picBoxFace = new System.Windows.Forms.PictureBox();
             this.pnlHeader.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxInsta)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxFace)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.pnlFooter.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxInsta)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxFace)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlHeader
@@ -90,6 +90,47 @@
             this.pnlHeader.Name = "pnlHeader";
             this.pnlHeader.Size = new System.Drawing.Size(1007, 44);
             this.pnlHeader.TabIndex = 4;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Application_Development_Coursework.Properties.Resources.twitt;
+            this.pictureBox3.Location = new System.Drawing.Point(848, 6);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(45, 35);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 10;
+            this.pictureBox3.TabStop = false;
+            // 
+            // lblFollow
+            // 
+            this.lblFollow.AutoSize = true;
+            this.lblFollow.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFollow.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblFollow.Location = new System.Drawing.Point(761, 19);
+            this.lblFollow.Name = "lblFollow";
+            this.lblFollow.Size = new System.Drawing.Size(81, 13);
+            this.lblFollow.TabIndex = 9;
+            this.lblFollow.Text = "Follow us on";
+            // 
+            // picBoxInsta
+            // 
+            this.picBoxInsta.Image = global::Application_Development_Coursework.Properties.Resources.instagram;
+            this.picBoxInsta.Location = new System.Drawing.Point(950, 6);
+            this.picBoxInsta.Name = "picBoxInsta";
+            this.picBoxInsta.Size = new System.Drawing.Size(45, 35);
+            this.picBoxInsta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxInsta.TabIndex = 8;
+            this.picBoxInsta.TabStop = false;
+            // 
+            // picBoxFace
+            // 
+            this.picBoxFace.Image = global::Application_Development_Coursework.Properties.Resources.facebook;
+            this.picBoxFace.Location = new System.Drawing.Point(899, 6);
+            this.picBoxFace.Name = "picBoxFace";
+            this.picBoxFace.Size = new System.Drawing.Size(45, 35);
+            this.picBoxFace.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxFace.TabIndex = 7;
+            this.picBoxFace.TabStop = false;
             // 
             // lblrestaurantName
             // 
@@ -136,6 +177,17 @@
             this.pnlFooter.Name = "pnlFooter";
             this.pnlFooter.Size = new System.Drawing.Size(1007, 44);
             this.pnlFooter.TabIndex = 5;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.MenuHighlight;
+            this.dateTimePicker1.Enabled = false;
+            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateTimePicker1.Location = new System.Drawing.Point(806, 11);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(198, 21);
+            this.dateTimePicker1.TabIndex = 57;
+            this.dateTimePicker1.Value = new System.DateTime(2021, 1, 19, 21, 52, 48, 0);
             // 
             // lblEmail
             // 
@@ -215,17 +267,6 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(558, 436);
             this.panel2.TabIndex = 7;
-            // 
-            // dateTimePicker1
-            // 
-            this.dateTimePicker1.CalendarMonthBackground = System.Drawing.SystemColors.MenuHighlight;
-            this.dateTimePicker1.Enabled = false;
-            this.dateTimePicker1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateTimePicker1.Location = new System.Drawing.Point(806, 11);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(198, 21);
-            this.dateTimePicker1.TabIndex = 57;
-            this.dateTimePicker1.Value = new System.DateTime(2021, 1, 19, 21, 52, 48, 0);
             // 
             // comboBox6
             // 
@@ -477,47 +518,6 @@
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Application_Development_Coursework.Properties.Resources.twitt;
-            this.pictureBox3.Location = new System.Drawing.Point(848, 6);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(45, 35);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 10;
-            this.pictureBox3.TabStop = false;
-            // 
-            // lblFollow
-            // 
-            this.lblFollow.AutoSize = true;
-            this.lblFollow.Font = new System.Drawing.Font("Cooper Black", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFollow.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.lblFollow.Location = new System.Drawing.Point(761, 19);
-            this.lblFollow.Name = "lblFollow";
-            this.lblFollow.Size = new System.Drawing.Size(81, 13);
-            this.lblFollow.TabIndex = 9;
-            this.lblFollow.Text = "Follow us on";
-            // 
-            // picBoxInsta
-            // 
-            this.picBoxInsta.Image = global::Application_Development_Coursework.Properties.Resources.instagram;
-            this.picBoxInsta.Location = new System.Drawing.Point(950, 6);
-            this.picBoxInsta.Name = "picBoxInsta";
-            this.picBoxInsta.Size = new System.Drawing.Size(45, 35);
-            this.picBoxInsta.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxInsta.TabIndex = 8;
-            this.picBoxInsta.TabStop = false;
-            // 
-            // picBoxFace
-            // 
-            this.picBoxFace.Image = global::Application_Development_Coursework.Properties.Resources.facebook;
-            this.picBoxFace.Location = new System.Drawing.Point(899, 6);
-            this.picBoxFace.Name = "picBoxFace";
-            this.picBoxFace.Size = new System.Drawing.Size(45, 35);
-            this.picBoxFace.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picBoxFace.TabIndex = 7;
-            this.picBoxFace.TabStop = false;
-            // 
             // CustomerFeedback
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -534,6 +534,9 @@
             this.Text = "Yummy Foods Survey";
             this.pnlHeader.ResumeLayout(false);
             this.pnlHeader.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxInsta)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxFace)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.pnlFooter.ResumeLayout(false);
             this.pnlFooter.PerformLayout();
@@ -541,9 +544,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxInsta)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.picBoxFace)).EndInit();
             this.ResumeLayout(false);
 
         }

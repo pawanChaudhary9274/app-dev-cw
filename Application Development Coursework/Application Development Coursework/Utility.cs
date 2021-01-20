@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.IO;
 
-namespace CourseWorkTrial
+namespace Application_Development_Coursework
 {
     public class Utility
     {
@@ -17,11 +17,11 @@ namespace CourseWorkTrial
             }
             using (StreamWriter writer = new StreamWriter(path, append: append))
             {
-                if (!append)
+                if (append)
                 {
-                    //removing opening bracket "[" from data passed
+                    //remove opening bracket "[" from data passed
                     data = data.Trim().Substring(1, data.Trim().Length - 1);
-                    //removing opening bracket "]" from data passed
+                    //remove last bracket "]" from data passed
                     data = data.Trim().Substring(0, data.Trim().Length - 1);
                 }
                 if (count != 0)
@@ -44,6 +44,7 @@ namespace CourseWorkTrial
                 {
                     data = "[" + data + "]";
                 }
+               ;
                 return data;
             }
             return null;
