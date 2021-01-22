@@ -44,3 +44,26 @@ C:\Users\Dell\Desktop\app-dev-cw\Application Development Coursework\Application 
 C:\Users\Dell\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.AddCriteria.resources
 C:\Users\Dell\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.CriteriaAdd.resources
 C:\Users\Dell\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csprojAssemblyReference.cache
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.AddCriteria.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.CustomerFeedback.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.RecordsControl.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.AdminLogin.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.App.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.DashboardControl.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.Properties.Resources.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application_Development_Coursework.SplashScreen.resources
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csproj.GenerateResource.cache
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csproj.CoreCompileInputs.cache
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.exe
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.pdb
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\Application Development Coursework.exe.config
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\Application Development Coursework.exe
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\Application Development Coursework.pdb
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\CircularProgressBar.dll
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\WinFormAnimation.dll
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\CircularProgressBar.xml
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\bin\Debug\WinFormAnimation.xml
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csproj.CopyComplete
+C:\Users\sktbo\Desktop\app-dev-cw\Application Development Coursework\Application Development Coursework\obj\Debug\Application Development Coursework.csprojAssemblyReference.cache

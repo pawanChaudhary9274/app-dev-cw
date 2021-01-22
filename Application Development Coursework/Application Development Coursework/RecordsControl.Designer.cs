@@ -28,44 +28,92 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.lblReportHead = new System.Windows.Forms.Label();
+            this.pnlReportHead = new System.Windows.Forms.Panel();
+            this.btnSort = new System.Windows.Forms.Button();
+            this.dataGvReports = new System.Windows.Forms.DataGridView();
+            this.dashboardControl1 = new Application_Development_Coursework.DashboardControl();
+            this.pnlReportHead.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGvReports)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lblReportHead
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(192, 153);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(66, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "this is record";
+            this.lblReportHead.AutoSize = true;
+            this.lblReportHead.Font = new System.Drawing.Font("Cooper Black", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReportHead.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.lblReportHead.Location = new System.Drawing.Point(168, 27);
+            this.lblReportHead.Name = "lblReportHead";
+            this.lblReportHead.Size = new System.Drawing.Size(238, 19);
+            this.lblReportHead.TabIndex = 3;
+            this.lblReportHead.Text = "Customer Feedbacks Report";
             // 
-            // button1
+            // pnlReportHead
             // 
-            this.button1.Location = new System.Drawing.Point(169, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(99, 43);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.pnlReportHead.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.pnlReportHead.Controls.Add(this.lblReportHead);
+            this.pnlReportHead.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pnlReportHead.Location = new System.Drawing.Point(0, 0);
+            this.pnlReportHead.Name = "pnlReportHead";
+            this.pnlReportHead.Size = new System.Drawing.Size(636, 64);
+            this.pnlReportHead.TabIndex = 3;
+            // 
+            // btnSort
+            // 
+            this.btnSort.BackColor = System.Drawing.Color.DarkOrange;
+            this.btnSort.FlatAppearance.BorderSize = 0;
+            this.btnSort.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSort.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSort.ForeColor = System.Drawing.Color.White;
+            this.btnSort.Location = new System.Drawing.Point(188, 375);
+            this.btnSort.Margin = new System.Windows.Forms.Padding(0);
+            this.btnSort.Name = "btnSort";
+            this.btnSort.Size = new System.Drawing.Size(166, 57);
+            this.btnSort.TabIndex = 8;
+            this.btnSort.Text = "Sort By Date";
+            this.btnSort.UseVisualStyleBackColor = false;
+            this.btnSort.Click += new System.EventHandler(this.btnSort_Click);
+            // 
+            // dataGvReports
+            // 
+            this.dataGvReports.BackgroundColor = System.Drawing.Color.DimGray;
+            this.dataGvReports.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGvReports.Location = new System.Drawing.Point(0, 62);
+            this.dataGvReports.Name = "dataGvReports";
+            this.dataGvReports.Size = new System.Drawing.Size(636, 290);
+            this.dataGvReports.TabIndex = 9;
+            // 
+            // dashboardControl1
+            // 
+            this.dashboardControl1.Location = new System.Drawing.Point(444, 385);
+            this.dashboardControl1.Name = "dashboardControl1";
+            this.dashboardControl1.Size = new System.Drawing.Size(498, 378);
+            this.dashboardControl1.TabIndex = 10;
             // 
             // RecordsControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.Color.Teal;
+            this.Controls.Add(this.dashboardControl1);
+            this.Controls.Add(this.dataGvReports);
+            this.Controls.Add(this.btnSort);
+            this.Controls.Add(this.pnlReportHead);
             this.Name = "RecordsControl";
-            this.Size = new System.Drawing.Size(569, 380);
+            this.Size = new System.Drawing.Size(636, 453);
+            this.pnlReportHead.ResumeLayout(false);
+            this.pnlReportHead.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGvReports)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblReportHead;
+        private System.Windows.Forms.Panel pnlReportHead;
+        private System.Windows.Forms.Button btnSort;
+        private System.Windows.Forms.DataGridView dataGvReports;
+        private DashboardControl dashboardControl1;
     }
 }

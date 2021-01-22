@@ -15,7 +15,7 @@ namespace Application_Development_Coursework
         public App()
         {
             InitializeComponent();
-            addCriteriaList();
+            //addCriteriaList();
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -62,6 +62,7 @@ namespace Application_Development_Coursework
             //criteriaAdd1.BringToFront();
 
         }
+        /*
         public void addCriteriaList()
         {
             //int locationX = 34;
@@ -94,6 +95,7 @@ namespace Application_Development_Coursework
 
             file.Close();
         }
+        */
     }
 }
 

@@ -1,0 +1,3 @@
+{"Name":"Ram","Email":"me.ram@mail.com","Phone":"9861234570","criterias":{"Food":"Good","Cleanliness":"Excellent"},"RatedTime":"2021-01-22T06:23:20.818498+05:45"},
+{"Name":"Pawan","Email":"pc@mail.com","Phone":"9876543210","criterias":{"Food":"Good","Cleanliness":""},"RatedTime":"2021-01-21T13:51:31.740838+05:45"},
+

@@ -15,6 +15,19 @@ namespace Application_Development_Coursework
         public RecordsControl()
         {
             InitializeComponent();
+            BindReviewGrid();
+        }
+        private void BindReviewGrid()
+        {
+            RatingModel obj = new RatingModel();
+            List<RatingModel> listRating = obj.List();
+            DataTable dt = Utility.ConvertToDynamicDataTable(listRating);
+            dataGvReports.DataSource = dt;
+        }
+
+        private void btnSort_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("hell");
         }
     }
 }
